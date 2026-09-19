@@ -1,0 +1,7 @@
+test_name,status,candidates,best_psi,threshold,notes
+T1_flat_sigma_0_5,PASS,0,,0.40,No false positives on flat terrain
+T1b_flat_sigma_2_0,PASS,0,,0.40,No false positives under stronger noise
+T1c_crs_guard,PASS,0,,0.40,Geographic CRS correctly rejected
+T2_cervino,PENDING,,,0.40,Awaiting cervino_utm32.tif
+T3_giza,PENDING,,,0.40,Awaiting giza_utm36.tif
+Pollino_pilot,LOCKED,,,0.40,Blocked until T2 and T3 pass

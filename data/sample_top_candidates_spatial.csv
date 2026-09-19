@@ -1,0 +1,4 @@
+candidate_id,lon,lat,psi_total,psi_01,psi_02,psi_03,psi_04,psi_05,psi_06,confidence_class,notes
+DEMO_CERVINO_001,7.6589,45.9763,0.68,0.76,0.62,0.66,0.58,1.00,0.39,demo,Demo only - not a real PSI output
+DEMO_CERVINO_002,7.6620,45.9730,0.61,0.70,0.58,0.60,0.51,0.92,0.35,demo,Demo only - not a real PSI output
+DEMO_CERVINO_003,7.6510,45.9800,0.54,0.62,0.50,0.53,0.47,0.86,0.30,demo,Demo only - not a real PSI output

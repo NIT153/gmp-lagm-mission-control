@@ -1,0 +1,25 @@
+{
+  "project_name": "GeoMorphPyramid Mission Control",
+  "version": "GMP-LAGM Mission Control v0.1",
+  "subtitle": "Computational Geomorphology Portal for Pyramidal Landform Detection",
+  "active_psi_engine": "psi_v01_2.py",
+  "active_runner": "lagm_test_runner_v01_5.py",
+  "validation_gates": [
+    {"name":"T1 flat sigma 0.5m","status":"PASS","candidates":0},
+    {"name":"T1b flat sigma 2.0m","status":"PASS","candidates":0},
+    {"name":"T1c CRS geographic guard","status":"PASS"},
+    {"name":"T2 Cervino","status":"PENDING"},
+    {"name":"T3 Giza","status":"PENDING"},
+    {"name":"Pollino pilot","status":"LOCKED"}
+  ],
+  "datasets": ["TINITALY", "Copernicus DEM GLO-30", "SRTM GL1", "ALOS PALSAR", "Sentinel-2", "Landsat", "LiDAR", "QGIS/GRASS/Geomorphons", "GeoPackage"],
+  "benchmark_sites": [
+    {"name":"Cervino / Matterhorn","lat":45.9763,"lon":7.6589,"status":"PENDING"},
+    {"name":"Giza Plateau","lat":29.9792,"lon":31.1342,"status":"PENDING"},
+    {"name":"Pollino / Castrovillari","lat":39.82,"lon":16.20,"status":"LOCKED"},
+    {"name":"Nocera Inferiore","lat":40.745,"lon":14.64,"status":"FUTURE"},
+    {"name":"NIT / Napoli","lat":40.8518,"lon":14.2681,"status":"HQ"}
+  ],
+  "decision_log": ["DL-001 PSI sperimentale", "DL-002 Geomorphons pre-screening", "DL-003 MVP DEM PSI GeoPackage QGIS", "DL-015 Guardia CRS obbligatoria", "DL-017 Target Cervino trasformato automaticamente nel CRS DEM"],
+  "disclaimer": "GeoMorphPyramid System identifica candidati morfologici da verificare. Il PSI non dimostra artificialità, archeologia o intenzionalità costruttiva."
+}
